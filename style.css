@@ -1,10 +1,67 @@
-li{
-    display: inline;
-
+*{
+    margin: 0px;
 }
 li{
     display: block;
 }
-#section{
-    background-image: ;
+nav li{
+    display: inline;
+    float: right;
+}
+header{
+    background-image: url(Assets/image-header.png);
+    height: 100vh;
+    background-color: cover;
+}
+nav{
+    padding: 24px;
+    
+    
+}
+ul nav{
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    
+    border-radius: 10px;
+}
+h1{
+    font-size: 53px;
+     font-family: "DM Sans", sans-serif;
+    font-style: regular;
+   
+    font-size: 100px;
+    color: white; 
+    strong{
+        font-size: 50px;
+    }
+}
+.taille{
+    width: 30%;
+    margin: auto;
+}
+h2{
+    color: white;
+     text-align: center;
+}
+a h2{
+    background-color: blue;
+}
+main{
+    background-color: black;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    padding: 15px 32px;
+}
+.secondary{
+    background-color: white;
+    color: black;
 }
